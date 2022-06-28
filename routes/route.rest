@@ -1,0 +1,31 @@
+GET http://localhost:3000/customers
+
+###
+
+GET http://localhost:3000/customers/62ba9e2da93661ac3d1cb61e
+
+###
+
+POST http://localhost:3000/customers
+Content-Type: application/json
+
+{
+    "name": "John Smith",
+    "services": "Paint correction",
+    "date": "June 28, 2022"
+}
+
+###
+
+DELETE http://localhost:3000/customers/62ba9e2ea93661ac3d1cb620
+
+###
+
+PATCH http://localhost:3000/customers/62ba9e2da93661ac3d1cb61e
+Content-Type: application/json
+
+{
+    "name": "hi",
+    "services": "nothing",
+    "date": "January 1, 2023"
+}
