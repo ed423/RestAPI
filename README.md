@@ -2,7 +2,7 @@
 
 ## A simple RESTful API that facilitates client scheduling. 
 
-### **Technologies used:
+### Technologies used:
 * JavaScript
 * Node.JS
 * Express
